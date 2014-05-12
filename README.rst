@@ -3,6 +3,10 @@ mplstyler
 
 An API for ensuring consistent line and marker styles across your plots. Assign colours, markers, line-styles to labels and re-use on subsequent plots. Styles can be matched to specific labels using exact or fuzzy matching to consecutively build up styles. Export styles to XML and re-import in subsequent sessions.
 
+The following demo shows how to use StylesManager in auto mode to automatically set colors. More examples will be added shortly
+demonstrating the use of manual-styles.
+
+Future planned features include XML import/export of styles and integration with mpltools.
 
 .. code:: python
 
