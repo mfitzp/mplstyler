@@ -62,4 +62,4 @@ Future planned features include XML import/export of styles and integration with
 .. image:: output_4_0.png
 
 Notice that Series 1 has again been displayed using the same colour, since the classname ('Series 1')
-is unchanged.
+is unchanged. However, Series 3 is assigned a new colour as it doesn't match any of the previous classes.
