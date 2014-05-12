@@ -40,8 +40,10 @@ Future planned features include XML import/export of styles and integration with
 .. code:: python
 
     figure()
-    
-    l = {}
+
+    from collections import OrderedDict
+
+    l = OrderedDict()
     s = styles.get_style_for_class('Series 1')
     l['Series 1'] = bar(x, y1, **s.bar_kwargs)
     
@@ -58,3 +60,6 @@ Future planned features include XML import/export of styles and integration with
 
 
 .. image:: output_4_0.png
+
+Notice that Series 1 has again been displayed using the same colour, since the classname ('Series 1')
+is unchanged.
