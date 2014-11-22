@@ -8,20 +8,20 @@ demonstrating the use of manual-styles.
 
 Future planned features include XML import/export of styles and integration with mpltools.
 
-.. code:: python
+    ::python
 
     from mplstyler import StylesManager
     
     styles = StylesManager()
-.. code:: python
+    ::python
 
     from pylab import *
-.. code:: python
+    ::python
 
     x = linspace(0, 5, 10)
     y1 = x ** 2
     y2 = x ** 3
-.. code:: python
+    ::python
 
     figure()
     
@@ -37,7 +37,7 @@ Future planned features include XML import/export of styles and integration with
 .. image:: output_3_0.png
 
 
-.. code:: python
+    ::python
 
     figure()
 
